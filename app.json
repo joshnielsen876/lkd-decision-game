@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "LKD Decision Game",
+    "slug": "lkd-decision-game",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.joshnielsen876org.lkddecisiongame"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.joshnielsen876org.lkddecisiongame"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "bbebed9e-eb1a-49e4-9077-4a54de852307"
+      }
+    },
+    "owner": "joshnielsen876-org",
+    "updates": {
+      "url": "https://u.expo.dev/bbebed9e-eb1a-49e4-9077-4a54de852307"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
